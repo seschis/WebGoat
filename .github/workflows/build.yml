@@ -11,13 +11,14 @@ jobs:
     permissions:
       security-events: write
     steps:
-      - name: Setup Java
-        uses: actions/setup-java@v2
-        with:
-          java-version: 15
+#      - name: Setup Java
+#        uses: actions/setup-java@v2
+#        with:
+#          java-version: 15
 #
 #
-      - uses: actions/checkout@v2
+      - name: checking out
+        uses: actions/checkout@v2
 #
 #        #- name: Build and Run Contrast Scan
 #        #run: ./mvnw --batch-mode verify
