@@ -38,4 +38,4 @@ jobs:
         uses: github/codeql-action/upload-sarif@v1
         with:
           sarif_file: webgoat-eh.sarif
-          checkout_path: "/Users/shaneschisler/projects/WebGoat_BBP_FORK"
+          checkout_path: "/Users/shaneschisler/projects/WebGoat-seschis"
